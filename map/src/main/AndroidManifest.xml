@@ -2,6 +2,16 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.rba.modular.map">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <activity
+            android:name="com.rba.modular.map.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
     <dist:module
         dist:instant="false"
         dist:title="@string/title_map">
