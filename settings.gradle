@@ -1,0 +1,8 @@
+include ':app', ':map', ':detaild', ':model', ':util', ':mapd', ':detaild', ':navigation'
+project(":model").projectDir = file("../ModularFoodModel/model")
+project(":model").projectDir = file("../ModularFoodModel/model")
+project(":util").projectDir = file("../ModularFoodUtil/util")
+project(":mapd").projectDir = file("../ModularFoodMapD/mapd")
+project(":detaild").projectDir = file("../ModularFoodDetailD/detaild")
+project(":navigation").projectDir = file("../ModularFoodNavigation/navigation")
+rootProject.name='ModularFoodMap'
