@@ -1,5 +1,5 @@
 include ':app', ':map', ':detaild', ':model', ':util', ':mapd', ':detaild', ':navigation', ':application'
-project(":application").projectDir = file("../ModularFoodApplication/app")
+project(":app").projectDir = file("../ModularFoodApplication/app")
 project(":model").projectDir = file("../ModularFoodModel/model")
 project(":model").projectDir = file("../ModularFoodModel/model")
 project(":util").projectDir = file("../ModularFoodUtil/util")
