@@ -1,4 +1,4 @@
-package com.rba.map.base
+package com.rba.modular.map.base
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -19,7 +19,7 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.*
-import com.rba.map.util.GpsUtil
+import com.rba.modular.map.util.GpsUtil
 import com.google.android.gms.maps.model.LatLng
 import com.rba.modular.model.model.RestaurantModel
 import com.rba.modular.util.Constant

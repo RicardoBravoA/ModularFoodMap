@@ -1,4 +1,4 @@
-package com.rba.map
+package com.rba.modular.map
 
 import android.view.View
 import android.view.ViewGroup

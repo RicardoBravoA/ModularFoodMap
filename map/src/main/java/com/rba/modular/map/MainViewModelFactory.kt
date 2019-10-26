@@ -1,4 +1,4 @@
-package com.rba.map
+package com.rba.modular.map
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

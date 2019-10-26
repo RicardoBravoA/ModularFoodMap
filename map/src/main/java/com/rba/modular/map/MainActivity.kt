@@ -1,4 +1,4 @@
-package com.rba.map
+package com.rba.modular.map
 
 import android.os.Bundle
 
@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.maps.SupportMapFragment
-import com.rba.map.base.BaseMapActivity
+import com.rba.modular.map.base.BaseMapActivity
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.AbsListView

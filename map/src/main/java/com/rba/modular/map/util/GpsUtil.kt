@@ -1,4 +1,4 @@
-package com.rba.map.util
+package com.rba.modular.map.util
 
 import android.widget.Toast
 import android.app.Activity
