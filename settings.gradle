@@ -1,2 +1,3 @@
 include ':app', ':map'
+project(":app").projectDir = file("../ModularFoodApplication/app")
 rootProject.name='ModularFoodMap'
